@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router} from '@angular/router';
 
+
 @Component({
   selector: 'app-department-list',
   templateUrl: './department-list.component.html',
@@ -13,6 +14,10 @@ export class DepartmentListComponent implements OnInit {
     {"id":2,"name":"CM"},
     {"id":3,"name":"IDS"}
   ];
+
+  showDetai(id){
+    return DepartmentListComponent.name;
+  }
 
   constructor(private router:Router) { }
 
