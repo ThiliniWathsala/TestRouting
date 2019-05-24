@@ -5,6 +5,7 @@ import { AppRoutingModule, rountingCompnent } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { Test1Component } from './test1/test1.component';
+import { DepartmentDetailsComponent } from './department-details/department-details.component';
 //import { DepartmentListComponent } from './department-list/department-list.component';
 //import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -13,7 +14,8 @@ import { Test1Component } from './test1/test1.component';
     AppComponent,
     rountingCompnent,
     TestComponent,
-    Test1Component
+    Test1Component,
+    DepartmentDetailsComponent
    ],
 
   imports: [
